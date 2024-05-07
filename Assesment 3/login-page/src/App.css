@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.login-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  text-align: left;
+  margin:auto;
+  border: 2px solid rgb(0, 56, 0, .3);
+  border-radius: 5px;
+  padding: 1% 1.5%;
+}
+
+.login-title{
+  color: rgb(0, 108, 0);
+  font-size: 40px;
+}
+
+.email-input, .password-input{
+  box-sizing: border-box  ;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 8px 7px; 
+  width: 100%;
+}
+
+.login-btn-div{
+text-align: right;
+}
+
+.login-btn{
+  margin-top: 10px;
+  padding: 2% 6%;
+  font-size: smaller;
+  border-radius: 5px;
+  color: white;
+  background: rgb(0, 108, 0);
+  border: none;
+}
