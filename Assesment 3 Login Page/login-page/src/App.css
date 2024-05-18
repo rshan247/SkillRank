@@ -44,3 +44,8 @@ text-align: right;
   background: rgb(0, 108, 0);
   border: none;
 }
+
+#respose_text{
+  color: red;
+  font-size: smaller;
+}
